@@ -1,0 +1,53 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	background: url(alessandra-verre-JGk7kKpRpRY-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+	height: 2rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: indigo;
+	border-color: indigo;
+}
+
+.btn-primary:hover {
+	background-color: black;
+	border-color: black;
+}
+
+.btn-primary:click {
+	background-color: black;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
